@@ -22,11 +22,11 @@ header{
 background:linear-gradient(135deg,#d63384,#ff85a2);
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:70px 20px;
 }
 
 header h1{
-font-size:40px;
+font-size:42px;
 margin-bottom:10px;
 }
 
@@ -93,6 +93,34 @@ border-radius:30px;
 font-weight:bold;
 }
 
+.mapbtn{
+display:inline-block;
+margin-top:10px;
+padding:12px 25px;
+background:#d63384;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.floating-whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
 footer{
 background:#222;
 color:white;
@@ -108,6 +136,17 @@ padding:15px;
 <h1>Boutique Tailor Shop</h1>
 <p>Professional Ladies Tailoring & Boutique Services</p>
 </header>
+
+<section>
+<h2 class="title">About Us</h2>
+<div class="card">
+<p>
+Welcome to Boutique Tailor Shop. We provide professional ladies tailoring,
+custom stitching, alterations, boutique designs and party wear dresses.
+Our goal is perfect fitting, quality work and customer satisfaction.
+</p>
+</div>
+</section>
 
 <section>
 <h2 class="title">Our Services</h2>
@@ -139,17 +178,53 @@ padding:15px;
 <h2 class="title">Our Collection</h2>
 
 <div class="gallery">
-<img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800" alt="Ladies Fashion">
-<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800" alt="Boutique Dress">
-<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800" alt="Ladies Wear">
+<img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800" alt="">
+<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800" alt="">
+<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800" alt="">
+</div>
+</section>
+
+<section>
+<h2 class="title">Customer Reviews</h2>
+
+<div class="services">
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Excellent stitching and perfect fitting.</p>
+<h4>- Ayesha</h4>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Beautiful boutique designs and timely delivery.</p>
+<h4>- Sana</h4>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Very professional service and reasonable prices.</p>
+<h4>- Rukhsar</h4>
+</div>
+
 </div>
 </section>
 
 <section>
 <div class="contact">
+
 <h2>Contact Us</h2>
 
 <p><strong>Phone:</strong> 9596413550</p>
+
+<br>
+
+<p><strong>Opening Hours:</strong><br>
+Monday - Sunday<br>
+9:00 AM - 7:00 PM
+</p>
+
+<br>
 
 <p><strong>Address:</strong><br>
 Near Jamma Masjid,<br>
@@ -161,12 +236,23 @@ Rajouri, Jammu & Kashmir - 185212
 Chat on WhatsApp
 </a>
 
+<br>
+
+<a class="mapbtn"
+href="https://maps.google.com/?q=Near+Jamma+Masjid+Plangarh+Thanamandi+Rajouri+185212">
+Open Location
+</a>
+
 </div>
 </section>
 
 <footer>
 © 2026 Boutique Tailor Shop. All Rights Reserved.
 </footer>
+
+<a href="https://wa.me/919596413550" class="floating-whatsapp">
+💬
+</a>
 
 </body>
 </html>
