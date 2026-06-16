@@ -1,35 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Boutique Tailor Shop</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-body{
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff8fb;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#d63384,#ff85a2);
+color:white;
 text-align:center;
-padding:40px;
-background:#fff5f8;
+padding:60px 20px;
 }
-h1{
-color:#d63384;
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
 }
+
+header p{
+font-size:18px;
+}
+
 .btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#d63384;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:50px 20px;
+}
+
+.title{
+text-align:center;
+color:#d63384;
+margin-bottom:25px;
+font-size:30px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.contact{
+background:#fff0f5;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
 background:#25D366;
 color:white;
-padding:12px 20px;
 text-decoration:none;
-border-radius:5px;
+border-radius:30px;
+font-weight:bold;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
 }
 </style>
 </head>
+
 <body>
 
+<header>
 <h1>Boutique Tailor Shop</h1>
-<p>Professional Ladies Tailoring Services</p>
+<p>Professional Ladies Tailoring & Boutique Services</p>
+<a href="tel:9596413550" class="btn">Call Now</a>
+</header>
 
-<p>Contact: 9596413550</p>
+<section>
+<h2 class="title">Our Services</h2>
 
-<a class="btn" href="tel:9596413550">Call Now</a>
+<div class="services">
+<div class="card">
+<h3>Suit Stitching</h3>
+<p>Perfect fitting and quality stitching.</p>
+</div>
+
+<div class="card">
+<h3>Boutique Designs</h3>
+<p>Modern and stylish ladies designs.</p>
+</div>
+
+<div class="card">
+<h3>Alterations</h3>
+<p>Professional fitting adjustments.</p>
+</div>
+
+<div class="card">
+<h3>Party Wear</h3>
+<p>Special dresses for weddings and events.</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="contact">
+<h2>Contact Us</h2>
+
+<p><strong>Phone:</strong> 9596413550</p>
+
+<p><strong>Address:</strong><br>
+Near Jamma Masjid,<br>
+Plangarh, Thanamandi,<br>
+Rajouri, Jammu & Kashmir - 185212
+</p>
+
+<a class="whatsapp" href="https://wa.me/919596413550">
+Chat on WhatsApp
+</a>
+
+</div>
+</section>
+
+<footer>
+© 2026 Boutique Tailor Shop. All Rights Reserved.
+</footer>
 
 </body>
 </html>
